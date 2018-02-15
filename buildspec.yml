@@ -18,4 +18,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - dulwich.zip
+    - echo upoaded the artifacts successfully.
