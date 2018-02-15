@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - zip pipeline-lambda-draft.zip dulwich dulwich-0.18.6.egg-info pipeline-lambda-draft.py
+      - zip pipeline-lambda-draft.zip dulwich/* dulwich-0.18.6.egg-info/* pipeline-lambda-draft.py
       - ls -a
   post_build:
     commands:
