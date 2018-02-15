@@ -1,0 +1,22 @@
+
+version: 0.2
+
+phases:
+  install: 
+    commands:
+      - echo Entered the install phase...
+      - apt-get update -y
+      - apt-get install zip -y
+      - echo installed zip successfully
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the Python code...
+      - python HelloWorld_tst.py
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - HelloWorld.py
+
