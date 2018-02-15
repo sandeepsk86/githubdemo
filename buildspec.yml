@@ -20,4 +20,4 @@ phases:
 artifacts:
   type: zip
   files:
-    - pipeline-lambda-draft
+    - pipeline-lambda-draft.zip
